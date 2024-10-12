@@ -1,0 +1,122 @@
+const newGpu1 = new Gpu({
+  name: 'GTX 1660',
+  price: 300,
+  image: '1660.png',
+  boost_clock: '1650 MHz',
+  memory_size: '4gb',
+  memory_type: 'GDDR6',
+  cuda_cores: 1408
+});
+
+// Save the new GPU item to the database
+newGpu1.save()
+
+const newGpu2 = new Gpu({
+  name: 'RTX 2070',
+  price: 500,
+  image: '2070.png',
+  boost_clock: '1800 MHz',
+  memory_size: '8gb',
+  memory_type: 'GDDR6',
+  cuda_cores: 2304
+});
+
+// Save the new GPU item to the database
+newGpu2.save()
+
+const newGpu3 = new Gpu({
+  name: 'RTX 3080',
+  price: 900,
+  image: '3080.png',
+  boost_clock: '1900 MHz',
+  memory_size: '12gb',
+  memory_type: 'GDDR6',
+  cuda_cores: 8704
+});
+
+// Save the new GPU item to the database
+newGpu3.save()
+
+const newGpu4 = new Gpu({
+  name: 'RX 580',
+  price: 200,
+  image: '580.png',
+  boost_clock: '1411 MHz',
+  memory_size: '8gb',
+  memory_type: 'GDDR5',
+  cuda_cores: 2304
+});
+
+// Save the new GPU item to the database
+newGpu4.save()
+
+
+
+
+processors
+
+
+const newProcessor1 = new Processor({
+  name: 'INTEL CORE I5-12400',
+  price: 65000,
+  image: 'i5-12400.png',
+  cpu_cores: 6,
+  threads: 12,
+  base_clock: '2.4GHz',
+  warranty: '3 years'
+});
+
+// Save the new processor item to the database
+newProcessor1.save()
+
+const newProcessor2 = new Processor({
+  name: 'AMD RYZEN 9 7950X',
+  price: 186500,
+  image: '7950x1.png',
+  cpu_cores: 16,
+  threads: 32,
+  base_clock: '4.5GHz',
+  warranty: '3 years'
+});
+
+// Save the new processor item to the database
+newProcessor2.save()
+
+const newProcessor3 = new Processor({
+  name: 'INTEL CORE I9 14900K',
+  price: 209500,
+  image: 'i9-14900k.png',
+  cpu_cores: 24,
+  threads: 32,
+  base_clock: '3.2GHz',
+  warranty: '3 years'
+});
+
+// Save the new processor item to the database
+newProcessor3.save()
+
+const newProcessor4 = new Processor({
+  name: 'INTEL CORE I7-12700',
+  price: 97000,
+  image: 'i7-12700.png',
+  cpu_cores: 12,
+  threads: 20,
+  base_clock: '2.1GHz',
+  warranty: '3 years'
+});
+
+// Save the new processor item to the database
+newProcessor4.save()
+
+const newProcessor5 = new Processor({
+  name: 'INTEL CORE I7 14700K',
+  price: 97000,
+  image: 'i7-14700k.png',
+  cpu_cores: 20,
+  threads: 28,
+  base_clock: '3.4GHz',
+  warranty: '3 years'
+});
+
+// Save the new processor item to the database
+newProcessor5.save()
